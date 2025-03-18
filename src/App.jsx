@@ -61,7 +61,7 @@ const MainContent = () => {
 };
 
 export default function App() {
-    console.log(process.env.REACT_APP_REDIRECT);
+    console.log(process.env.REACT_APP_REDIRECT_URI);
     console.log(process.env.REACT_APP_API_URL);
     console.log(process.env.REACT_APP_CLIENT);
     return (
