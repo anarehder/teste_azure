@@ -15,7 +15,7 @@ export const msalConfig = {
     auth: {
         clientId: process.env.REACT_APP_CLIENT,
         authority: process.env.REACT_APP_API_URL,
-        redirectUri: window.location.origin,
+        redirectUri: 'https://kind-rock-0eddd531e.6.azurestaticapps.net/',
     },
     cache: {
         cacheLocation: "sessionStorage", // This configures where your cache will be stored
