@@ -64,6 +64,7 @@ export default function App() {
     console.log(process.env.REACT_APP_REDIRECT_URI);
     console.log(process.env.REACT_APP_API_URL);
     console.log(process.env.REACT_APP_CLIENT);
+    console.log("ENV Variáveis:", process.env);
     return (
         <PageLayout>
             <MainContent />
